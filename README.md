@@ -1,2 +1,8 @@
 # bash-shell
-my tool script
+
+### Jack Liu's Usual Tool Script:
+
+* Python
+    * pipenv-pkg.sh: site-packages path info
+
+
