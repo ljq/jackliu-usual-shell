@@ -34,12 +34,12 @@ pysubversion="${pysubversionarray[0]}.${pysubversionarray[1]}"
 osplatform=$(systemPlatform)
 case ${osplatform} in 
     "Darwin")
-    if [ ${osplatform} == "Darwin" ]; then
-        # version
-        echo -e "site-packages path info:"
-        echo -e "cd ～/.pyenv/versions/${pyfullversion}/lib/python${pysubversion}/site-packages"
-    fi
-    ;;
+        if [ ${osplatform} == "Darwin" ]; then
+            # version
+            echo -e "site-packages path info:"
+            echo -e "cd ～/.pyenv/versions/${pyfullversion}/lib/python${pysubversion}/site-packages"
+        fi
+        ;;
  esac
 
 exit 0
