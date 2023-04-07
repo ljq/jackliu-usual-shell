@@ -4,14 +4,14 @@
 # Site: https://github.com/ljq
 # Blog: https://www.defense.ink
 # Email: ljqlab@163.com
-# Description: The nginx distribution provided by hombrew daemon service shortcut script.
+# Description: 🍎 The nginx distribution provided by hombrew daemon service shortcut script.
 
 # help info
 USEAGE="[usage]: [-s | s | status] [start | restart | reload | stop] [-h | -help | --help] [-v | -V | --version]"
 HELP_INFO=$(cat <<EOF
 [help information]
 
-Description: 
+Description: 🍎 
     This script is used to resolve the problem that the Homebrew-based Nginx package 
     daemon service cannot be started after the new version of MacOS is updated. This 
     problem is usually caused by the conflict between the permission privacy policy 
