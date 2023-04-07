@@ -20,7 +20,7 @@ Description: 🍎
 
 Command usage:
 
-    -v|V|version: Show current nginx version information.
+    -v|-V|version: Show current nginx version information.
     
     -h|-help|--help: Show help info.
     
