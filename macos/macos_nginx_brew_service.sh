@@ -13,10 +13,10 @@ HELP_INFO=$(cat <<EOF
 
 Description: 
     This script is used to resolve the problem that the Homebrew-based Nginx package 
-	daemon service cannot be started after the new version of MacOS is updated. This 
-	problem is usually caused by the conflict between the permission privacy policy 
-	updated by MacOS and the permission of the nginx daemon service. This script 
-	manages the service by directly manipulating the nginx service process.
+    daemon service cannot be started after the new version of MacOS is updated. This 
+    problem is usually caused by the conflict between the permission privacy policy 
+    updated by MacOS and the permission of the nginx daemon service. This script 
+    manages the service by directly manipulating the nginx service process.
 
 Command usage:
 
