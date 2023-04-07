@@ -22,7 +22,7 @@ Command usage:
 
     -v|V|version: Show current nginx version information.
     
-    -h|help: Show help info.
+    -h|-help|--help: Show help info.
     
     -s|s|status: Nginx process status.
     
