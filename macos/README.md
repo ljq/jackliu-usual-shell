@@ -3,9 +3,11 @@
 ### Jack Liu's Usual Tool Script List:
 
 * **macos_nginx_brew_service.sh**: 
-[help information]
 
-###### Description: 🍎 
+###### MacOS 🍎 
+**MacOS Ventura 13.3**
+
+###### Description: 
 This script is used to resolve the problem that the Homebrew-based Nginx package 
 daemon service cannot be started after the new version of MacOS is updated. This 
 problem is usually caused by the conflict between the permission privacy policy 
