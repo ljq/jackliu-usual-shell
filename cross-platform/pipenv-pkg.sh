@@ -1,4 +1,4 @@
-#/bin/bash -f
+#!/usr/bin/env bash
 # Author : Jack liu
 # Email: stackgo@163.com
 # pyenv pipenv:
@@ -40,7 +40,7 @@ case ${osplatform} in
             echo -e "cd ～/.pyenv/versions/${pyfullversion}/lib/python${pysubversion}/site-packages"
         fi
         ;;
- esac
+esac
 
 exit 0
 
