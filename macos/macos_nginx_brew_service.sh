@@ -44,7 +44,7 @@ if [ "$argv1" = "" ]; then
 	echo -e "[brew's nginx service shortcut script]\n"
 fi
 # initialization check
-if ! [ -x "$(command -v brew)" ]; then
+if [ ! -x "$(command -v brew)" ]; then
 	echo -e "[WARNING] Homebrew is not installed."
 	exit
 fi
