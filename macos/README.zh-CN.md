@@ -1,4 +1,4 @@
-# MacOS Scripts
+# Jack Liu's MacOS Scripts
 
 ### Jack Liu's Usual Tool Script List:
 

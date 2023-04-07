@@ -1,4 +1,4 @@
-# bash-shell
+# Jack Liu's usual shell scripts
 
 ### Jack Liu's Usual Tool Script List:
 
