@@ -31,6 +31,12 @@ Command usage:
 EOF
 )
 
+# brew check
+if [ ! -x "$(command -v brew)" ]; then
+	echo -e "[WARNING] Homebrew is not installed."
+	exit
+fi
+
 # set variables
 sh_file=$0
 argv1=$1
@@ -44,10 +50,6 @@ if [ "$argv1" = "" ]; then
 	echo -e "[brew's nginx service shortcut script]\n"
 fi
 # initialization check
-if [ ! -x "$(command -v brew)" ]; then
-	echo -e "[WARNING] Homebrew is not installed."
-	exit
-fi
 if [ ! -f "$nginx_bin" ]; then
 	echo -e "[WARNING] The version of nignx provided by homebrew is not installed."
 	exit
