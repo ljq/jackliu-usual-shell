@@ -7,7 +7,6 @@
 # Description: 🍎 The nginx distribution provided by hombrew daemon service shortcut script.
 
 # help info
-USEAGE="[usage]: [-s | s | status] [start | restart | reload | stop] [-h | -help | --help] [-v | -V | --version]"
 HELP_INFO=$(cat <<EOF
 [help information]
 
