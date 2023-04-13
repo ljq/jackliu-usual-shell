@@ -17,6 +17,15 @@ Description: 🍎
     updated by MacOS and the permission of the nginx daemon service. This script 
     manages the service by directly manipulating the nginx service process.
 
+Notice:
+	It is recommended to turn off the Nginx service and start up 
+	(otherwise, privacy permission may be triggered if brew default 
+	start service permission is too high after machine restart) ：
+
+	Example Cancel the system starting the self-loading nginx service：
+	
+ 	launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+
 Command usage:
 
     -v|-V|version: Show current nginx version information.
