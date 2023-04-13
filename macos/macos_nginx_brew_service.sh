@@ -22,8 +22,8 @@ Notice:
 	(otherwise, privacy permission may be triggered if brew default 
 	start service permission is too high after machine restart) ：
 
-	Example Cancel the system starting the self-loading nginx service：
-	
+	[ Example Cancel the system starting the self-loading nginx service ]
+
  	launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
 
 Command usage:
