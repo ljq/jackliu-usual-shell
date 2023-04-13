@@ -18,6 +18,8 @@ Description: 🍎
     manages the service by directly manipulating the nginx service process.
 
 Notice:
+	Before using the script, it is recommended to turn off the automatic running 
+	of the nginx service after the operating system starts
 	It is recommended to turn off the Nginx service and start up 
 	(otherwise, privacy permission may be triggered if brew default 
 	start service permission is too high after machine restart) ：
