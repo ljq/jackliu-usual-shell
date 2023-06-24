@@ -4,6 +4,9 @@
 
 * MacOS: 🍎
     * **macos_nginx_brew_service.sh**: This script aims to resolve the problem that the service cannot be started due to the conflict between the nginx daemon service permission and the MacOS permission privacy policy provided by the installation package of the new MacOS version and Homebrew. This script directly operates the nginx service process.
+    *  **cleanup-macOS-Disk.sh**
+    macOS Cleanup Clear Free disk space.
+    Warnning: For developers, ordinary users should use with caution.
 
 
 * Cross-platform:
@@ -19,7 +22,8 @@
 └── macos
     ├── README.md
     ├── README.zh-CN.md
-    └── macos_nginx_brew_service.sh
+    ├── macos_nginx_brew_service.sh
+    └── cleanup-macOS-Disk.sh
 
 3 directories, 6 files
 ```

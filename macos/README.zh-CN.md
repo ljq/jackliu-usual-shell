@@ -22,4 +22,9 @@
     start|restart|reload|stop: Service operation.
 ```
 
+###### **cleanup-macOS-Disk.sh**
+macOS Cleanup 清除释放磁盘空间.
+注意：面向开发者，普通用户慎用。
+
+
  [English](README.md)

@@ -25,5 +25,9 @@ manages the service by directly manipulating the nginx service process.
     start|restart|reload|stop: Service operation.
 ```
 
+###### **cleanup-macOS-Disk.sh**
+macOS Cleanup Clear Free disk space.
+Warnning: For developers, ordinary users should use with caution.
+
 [简体中文](README.zh-CN.md)
  
