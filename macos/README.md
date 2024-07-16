@@ -4,7 +4,8 @@
 
 * **orbstack_ssh.sh**: Orbstack SSH Tool
 
-####### orbstack fast connect ssh：
+####### Using SSH and node number to quickly log into servers based on orbstack.dev：
+
 ```
 # Define an array of node names or addresses
 nodes=(

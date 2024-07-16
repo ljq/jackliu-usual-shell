@@ -1,5 +1,5 @@
 #!/bin/bash
-# Description: A script to check system version and install tools on linux os.
+# Description: Using SSH and node number to quickly log into servers based on orbstack.dev..
 # Author: Jackliu (ljq@GitHub)
 # Usage: orbstack_ssh.sh <node_number>
 # Version: 1.1

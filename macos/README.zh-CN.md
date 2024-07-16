@@ -2,9 +2,9 @@
 
 ### Jack Liu's Usual Tool Script List:
 
-* **orbstack_ssh.sh**: Orbstack SSH Tool
+* **orbstack_ssh.sh**: Using SSH and node number to quickly log into servers based on orbstack.dev.
 
-####### orbstack fast connect ssh：
+####### 使用SSH和节点编号来快速登录基于orbstack.dev的服务器：
 ```
 # Define an array of node names or addresses
 nodes=(
