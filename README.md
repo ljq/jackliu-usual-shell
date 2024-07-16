@@ -22,8 +22,9 @@
 └── macos
     ├── README.md
     ├── README.zh-CN.md
+    ├── cleanup-macOS-Disk.sh
     ├── macos_nginx_brew_service.sh
-    └── cleanup-macOS-Disk.sh
+    └── orbstack_ssh.sh
 
-3 directories, 6 files
+3 directories, 8 files
 ```
