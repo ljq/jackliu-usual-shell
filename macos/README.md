@@ -2,6 +2,20 @@
 
 ### Jack Liu's Usual Tool Script List:
 
+* **orbstack_ssh.sh**: Orbstack SSH Tool
+
+####### orbstack fast connect ssh：
+```
+# Define an array of node names or addresses
+nodes=(
+    "root@rocky-master@orb"
+    "root@rocky-node1@orb"
+    "root@rocky-node2@orb"
+    "root@rocky-node3@orb"
+    # Add more nodes here as needed
+)
+```
+
 * **macos_nginx_brew_service.sh**: 
 
 ###### MacOS 🍎 
