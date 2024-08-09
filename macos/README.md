@@ -4,18 +4,8 @@
 
 * **orbstack_ssh.sh**: Orbstack SSH Tool
 
-####### Using SSH and node number to quickly log into servers based on orbstack.dev：
+####### Using SSH and running's node number to quickly log into servers based on orbstack.dev：
 
-```
-# Define an array of node names or addresses
-nodes=(
-    "root@rocky-master@orb"
-    "root@rocky-node1@orb"
-    "root@rocky-node2@orb"
-    "root@rocky-node3@orb"
-    # Add more nodes here as needed
-)
-```
 
 * **macos_nginx_brew_service.sh**: 
 

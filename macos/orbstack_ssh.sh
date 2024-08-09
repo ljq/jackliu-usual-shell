@@ -1,20 +1,24 @@
 #!/bin/bash
-# Description: Using SSH and node number to quickly log into servers based on orbstack.dev..
+# Description: Using SSH and running's node number to quickly log into servers based on orbstack.dev.
 # Author: Jackliu (ljq@GitHub)
-# Usage: orbstack_ssh.sh <node_number>
+# Usage: ssh_orbstack.sh <node_number>
 # Version: 1.1
 # Date: 2023-07-15
 # License: MIT
 # Page Site: https://github.com/ljq
 
 # Define an array of node names or addresses
-nodes=(
-    "root@rocky-master@orb"
-    "root@rocky-node1@orb"
-    "root@rocky-node2@orb"
-    "root@rocky-node3@orb"
-    # Add more nodes here as needed
-)
+
+# show orbstack runing names
+
+# exec: orb list -rq (-r: running; -q: only show names)
+output=$(orb list -rq)
+nodes=()
+# Loop through each line in the output
+while IFS= read -r line; do
+    # set "username@hostname@orb"
+    nodes+=("root@${line}@orb")
+done <<< "$output"
 
 # Function to handle SSH login by node index
 ssh_login() {
@@ -41,7 +45,7 @@ if [[ $# -eq 1 ]]; then
     fi
 else
     echo "Usage: $0 <node_number>"
-    echo "Available nodes:"
+    echo "[ Available nodes ]:"
     for ((i=0; i<${#nodes[@]}; i++)); do
         echo "[$i] ${nodes[$i]}"
     done

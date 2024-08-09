@@ -4,18 +4,7 @@
 
 * **orbstack_ssh.sh**: Using SSH and node number to quickly log into servers based on orbstack.dev.
 
-####### 使用SSH和节点编号来快速登录基于orbstack.dev的服务器：
-```
-# Define an array of node names or addresses
-nodes=(
-    "root@rocky-master@orb"
-    "root@rocky-node1@orb"
-    "root@rocky-node2@orb"
-    "root@rocky-node3@orb"
-    
-    # Add more nodes here as needed
-)
-```
+####### 使用SSH和活跃的节点编号来快速登录基于orbstack.dev的服务器：
 
 * **macos_nginx_brew_service.sh**: 
 
