@@ -2,8 +2,8 @@
 # Description: Using SSH and running's node number to quickly log into servers based on orbstack.dev.
 # Author: Jackliu (ljq@GitHub)
 # Usage: ssh_orbstack.sh <node_number>
-# Version: 1.1
-# Date: 2023-07-15
+# Version: 1.2
+# Date: 2024-07-15
 # License: MIT
 # Page Site: https://github.com/ljq
 
