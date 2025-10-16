@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Author: Jack Liu
+# Author: Jaco Liu
 # Date Time: 2023-04-07 20:06
 # Site: https://github.com/ljq
-# Blog: https://www.defense.ink
+# Blog: https://www.wdft.com
 # Email: ljqlab@163.com
 # Description: 🍎 The nginx distribution provided by hombrew daemon service shortcut script.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Author : Jack liu
+# Author : Jaco Liu
 # Email: stackgo@163.com
 # pyenv pipenv:
 #   site-packages path info

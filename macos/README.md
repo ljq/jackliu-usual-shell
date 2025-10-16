@@ -1,6 +1,6 @@
-# Jack Liu's MacOS Scripts
+# Jaco Liu's MacOS Scripts
 
-### Jack Liu's Usual Tool Script List:
+### Jaco Liu's Usual Tool Script List:
 
 * **orbstack_ssh.sh**: Orbstack SSH Tool
 

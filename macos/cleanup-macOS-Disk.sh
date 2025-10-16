@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Title：🍎 Cleanup Device Trash Files.
 # 		 macOS Cleanup 清除释放磁盘空间.
-# Author： Jack Liu
+# Author： Jaco Liu
 # UpdateTime: 2023-06-24 16:13
 # -----------------------------------
 #
@@ -54,12 +54,12 @@ case $argv_1 in
 		# Vmware Fusion clean
 		echo 'Vmware Fusion clean...'
 		cat /dev/zero > wipefile; rm wipefile
-		~/VmwareFusionBin/vmware-vdiskmanager -d "/Users/jackliu/VmwareFusionPro/Centos8_X64.vmwarevm/虚拟磁盘.vmdk"
-		~/VmwareFusionBin/vmware-vdiskmanager -k "/Users/jackliu/VmwareFusionPro/Centos8_X64.vmwarevm/虚拟磁盘.vmdk"
-		~/VmwareFusionBin/vmware-vdiskmanager -d "/Users/jackliu/VmwareFusionPro/Centos8_X64-node01.vmwarevm/虚拟磁盘-cl1.vmdk"
-		~/VmwareFusionBin/vmware-vdiskmanager -k "/Users/jackliu/VmwareFusionPro/Centos8_X64-node01.vmwarevm/虚拟磁盘-cl1.vmdk"
-		~/VmwareFusionBin/vmware-vdiskmanager -d "/Users/jackliu/VmwareFusionPro/Centos8_X64-devops02.vmwarevm/虚拟磁盘-cl2.vmdk"
-		~/VmwareFusionBin/vmware-vdiskmanager -k "/Users/jackliu/VmwareFusionPro/Centos8_X64-devops02.vmwarevm/虚拟磁盘-cl2.vmdk"
+		~/VmwareFusionBin/vmware-vdiskmanager -d "/Users/ljq/VmwareFusionPro/Centos8_X64.vmwarevm/虚拟磁盘.vmdk"
+		~/VmwareFusionBin/vmware-vdiskmanager -k "/Users/ljq/VmwareFusionPro/Centos8_X64.vmwarevm/虚拟磁盘.vmdk"
+		~/VmwareFusionBin/vmware-vdiskmanager -d "/Users/ljq/VmwareFusionPro/Centos8_X64-node01.vmwarevm/虚拟磁盘-cl1.vmdk"
+		~/VmwareFusionBin/vmware-vdiskmanager -k "/Users/ljq/VmwareFusionPro/Centos8_X64-node01.vmwarevm/虚拟磁盘-cl1.vmdk"
+		~/VmwareFusionBin/vmware-vdiskmanager -d "/Users/ljq/VmwareFusionPro/Centos8_X64-devops02.vmwarevm/虚拟磁盘-cl2.vmdk"
+		~/VmwareFusionBin/vmware-vdiskmanager -k "/Users/ljq/VmwareFusionPro/Centos8_X64-devops02.vmwarevm/虚拟磁盘-cl2.vmdk"
 		;;
 	"-npm")
 		# 清理npm

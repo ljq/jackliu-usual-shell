@@ -1,6 +1,6 @@
-# Jack Liu's usual shell scripts
+# Jaco Liu's usual shell scripts
 
-### Jack Liu's Usual Tool Script List:
+### Jaco Liu's Usual Tool Script List:
 
 * MacOS: 🍎
     * **macos_nginx_brew_service.sh**: This script aims to resolve the problem that the service cannot be started due to the conflict between the nginx daemon service permission and the MacOS permission privacy policy provided by the installation package of the new MacOS version and Homebrew. This script directly operates the nginx service process.
